@@ -1,0 +1,22 @@
+Hybrid Framework
+
+TestNG
+Cross browsing testing
+Polymorphism
+Inheritance
+Class
+Objects
+Constructor
+Listeners
+ExtentReport
+Log4j2
+PageFactory
+Proper package
+Proper Class
+xml files
+properties
+
+remaining part
+jenkins
+github
+parallel testing

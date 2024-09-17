@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross browsing testing - Sign In Page" thread-count="5">
+	<listeners>
+		<listener class-name="com.myshop.listeners.MyListener"></listener>
+	</listeners>
+	<test name="Chrome Test">
+		<parameter name="brName" value="Chrome"></parameter>
+		<classes>
+			<class name="com.myshop.testcase.SignIn_TestCase" />
+		</classes>
+	</test> <!--
+	Test -->
+	
+	<test name="Edge Test">
+		<parameter name="brName" value="Edge"></parameter>
+		<classes>
+			<class name="com.myshop.testcase.SignIn_TestCase" />
+		</classes>
+	</test> <!--
+	Test -->
+	
+	<test name="Firefox Test">
+		<parameter name="brName" value="Firefox"></parameter>
+		<classes>
+			<class name="com.myshop.testcase.SignIn_TestCase" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,27 @@
+21:01:22:434 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\N@veeN\Software Testing\Selenium\Selenium_Projects\MyShop\runners\chrome\testing_testcase.xml
+
+21:01:40:842 [main] INFO  com.myshop.testcase.Testing - Starting test case: TC002_verify_that_contactUs_functionality_works_propelry
+21:01:40:843 [main] INFO  com.myshop.testcase.Testing - Clicking on the Contact button.
+21:01:41:717 [main] INFO  com.myshop.testcase.Testing - Retrieving the current URL after clicking the Contact button.
+21:01:41:726 [main] INFO  com.myshop.testcase.Testing - Current URL retrieved: http://www.automationpractice.pl/index.php?controller=contact
+21:01:41:728 [main] INFO  com.myshop.testcase.Testing - Expected URL for comparison: http://www.automationpractice.pl/index.php?controller=contact
+21:01:41:728 [main] INFO  com.myshop.testcase.Testing - Test case passed: Contact Us functionality works properly.
+21:06:48:531 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\N@veeN\Software Testing\Selenium\Selenium_Projects\MyShop\runners\chrome\testing_testcase.xml
+
+21:07:03:539 [main] INFO  com.myshop.testcase.Testing - Starting test case: TC002_verify_that_contactUs_functionality_works_propelry
+21:07:03:540 [main] INFO  com.myshop.testcase.Testing - Clicking on the Contact button.
+21:07:04:458 [main] INFO  com.myshop.testcase.Testing - Retrieving the current URL after clicking the Contact button.
+21:07:04:465 [main] INFO  com.myshop.testcase.Testing - Current URL retrieved: http://www.automationpractice.pl/index.php?controller=contact
+21:07:04:465 [main] INFO  com.myshop.testcase.Testing - Expected URL for comparison: http://www.automationpractice.pl/index.php?controller=contact
+21:07:04:465 [main] INFO  com.myshop.testcase.Testing - Test case passed: Contact Us functionality works properly.
+21:07:39:959 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\N@veeN\Software Testing\Selenium\Selenium_Projects\MyShop\runners\chrome\testing_testcase.xml
+
+21:07:54:086 [main] INFO  com.myshop.testcase.Testing - Starting test case: TC002_verify_that_contactUs_functionality_works_propelry
+21:07:54:086 [main] INFO  com.myshop.testcase.Testing - Clicking on the Contact button.
+21:07:54:920 [main] INFO  com.myshop.testcase.Testing - Retrieving the current URL after clicking the Contact button.
+21:07:54:927 [main] INFO  com.myshop.testcase.Testing - Current URL retrieved: http://www.automationpractice.pl/index.php?controller=contact
+21:07:54:927 [main] INFO  com.myshop.testcase.Testing - Expected URL for comparison: http://www.automationpractice.pl/index.php?controller=contact
+21:07:54:927 [main] INFO  com.myshop.testcase.Testing - Test case passed: Contact Us functionality works properly.

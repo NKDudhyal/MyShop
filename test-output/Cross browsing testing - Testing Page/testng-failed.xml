@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cross browsing testing - Testing Page]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.myshop.listeners.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="brName" value="Chrome"/>
+    <classes>
+      <class name="com.myshop.testcase.Testing">
+        <methods>
+          <include name="xml_setup"/>
+          <include name="TC001_verify_the_text_of_contact_btn"/>
+          <include name="xml_tearDown"/>
+        </methods>
+      </class> <!-- com.myshop.testcase.Testing -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" name="Edge Test(failed)">
+    <parameter name="brName" value="Edge"/>
+    <classes>
+      <class name="com.myshop.testcase.Testing">
+        <methods>
+          <include name="xml_setup"/>
+          <include name="TC001_verify_the_text_of_contact_btn"/>
+          <include name="xml_tearDown"/>
+          <include name="TC002_verify_that_contactUs_functionality_works_propelry"/>
+        </methods>
+      </class> <!-- com.myshop.testcase.Testing -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+  <test thread-count="5" name="Firefox Test(failed)">
+    <parameter name="brName" value="Firefox"/>
+    <classes>
+      <class name="com.myshop.testcase.Testing">
+        <methods>
+          <include name="xml_setup"/>
+          <include name="TC001_verify_the_text_of_contact_btn"/>
+          <include name="xml_tearDown"/>
+        </methods>
+      </class> <!-- com.myshop.testcase.Testing -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Cross browsing testing - Testing Page] -->
